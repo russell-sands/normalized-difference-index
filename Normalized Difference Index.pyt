@@ -168,7 +168,7 @@ class Calculate(object):
         inputFeatures = parameters[0].value
         fieldOnePos = parameters[1].valueAsText
         fieldOneNeg = parameters[2].valueAsText
-        isIdeal = parameters[3].value
+        isIdeal = parameters[3].valueAsText
         relationshipDirection = parameters[4].valueAsText
         relationshipValue = parameters[5].valueAsText
         outputField = parameters[6].valueAsText
